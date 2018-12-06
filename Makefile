@@ -1,9 +1,6 @@
 gco_python: gco_src
 	python setup.py build_ext -i
 
-gco-v3.0.zip:
-	wget http://mouse.csd.uwo.ca/code/gco-v3.0.zip
+gco_src:
+	git clone https://github.com/nsubtil/gco-v3.0.git gco_src
 
-gco_src: gco-v3.0.zip
-	mkdir gco_src
-	cd gco_src && unzip ../gco-v3.0.zip
