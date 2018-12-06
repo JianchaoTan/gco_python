@@ -16,7 +16,7 @@ Installation
 
 With Pip
 --------
-- Run `pip install git+git://github.com/amueller/gco_python`
+- Run `pip install git+git://github.com/JianchaoTan/gco_python`
 
 For Linux
 ---------
@@ -31,7 +31,7 @@ For Windows
 -----------
 - Make sure Cython is installed (included in enthought Python distribution for example)
 
-- Download original source from http://vision.csd.uwo.ca/code/gco-v3.0.zip
+- Download original source from http://mouse.csd.uwo.ca/code/gco-v3.0.zip
 
 - Build gco with your compiler of choice. Create a dynamic library at libgco.so.
 
