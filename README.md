@@ -7,7 +7,7 @@ Python wrappers for GCO alpha-expansion and alpha-beta-swaps.
 These wrappers provide a high level interface for graph cut
 inference for multi-label problems.
 
-See my blog for examples and comments: [peekaboo-vision.blogspot.com](https://peekaboo-vision.blogspot.com)
+See this blog for examples and comments: [peekaboo-vision.blogspot.com](https://peekaboo-vision.blogspot.com)
 
 
 
@@ -25,21 +25,6 @@ For Linux
 - run ``make``
 
 - Run example.py for a simple example.
-
-
-For Windows
------------
-- Make sure Cython is installed (included in enthought Python distribution for example)
-
-- Download original source from http://mouse.csd.uwo.ca/code/gco-v3.0.zip
-
-- Build gco with your compiler of choice. Create a dynamic library at libgco.so.
-
-- Adjust the path to gco in setup.py.
-
-- run ``python setup.py build``.
-
-- run example.py for a simple example.
 
 
 Troubleshooting
